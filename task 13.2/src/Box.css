@@ -1,0 +1,19 @@
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
